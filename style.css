@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/raleway/v29/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2) format('woff2');
+}
+
+html{
+    width: 1160px;
+    margin: auto;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.profile{
+    background-color: #782221;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding: 50px;
+}
+
+.profile_picture{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(0 0 0.50rem white);
+}
+
+.profile_picture:hover{
+    cursor: zoom-in;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c1d27;
+    padding: 30px;
+    font-size: 1em;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+h3{
+    background-color: #dbc2a4;
+    padding: 5px;
+}
+
+
+.infoexp:hover{
+    border-left: 10px solid #782221 ;
+}
+
+.profile_info{
+    position: relative;
+    background-color: #782221;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+.description, .liste_langue, .liste_hobby{
+    color: white;
+}
+
+.description{
+    text-align: justify;
+    text-indent: 10%;
+}
+
+.experiences{
+    position: relative;
+    padding: 40px;
+    border-right: solid black;
+}
+
+.time{
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: #782221;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 20px;
+}
+
+.logo_linkedin, .logo_twitter, .logo_github{
+    height: 50px;
+    
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.logo_linkedin:hover{
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+    
+} 
+
+.logo_twitter:hover{
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+}
+
+.logo_github:hover{
+    opacity: 0.5;
+    filter:alpha(opacity=40);
+}
